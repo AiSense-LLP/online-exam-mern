@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Figma Design: https://discord.com/channels/1139794124334178314/1160850864727130133/1162367523342258217
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
