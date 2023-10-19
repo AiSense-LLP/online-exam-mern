@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Figma Design: https://www.figma.com/file/EoMjJ8NkWR6p8v6GzwU1bK/online-exam(fetena)-(Community)?type=design&node-id=42-483&mode=design&t=n1QrEcO6hu2mybY6-0
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
