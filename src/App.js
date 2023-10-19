@@ -4,9 +4,10 @@ import Hero from './components/Hero';
 
 function App() {
   return (
- <>
+ <div className='overflow-hidden'>
+
  <Hero/>
- </>
+ </div>
   );
 }
 

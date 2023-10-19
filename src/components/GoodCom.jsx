@@ -2,17 +2,17 @@ import React from "react";
 
 const GoodCom = () => {
   return (
-    <div className="w-full py-28 px-16 my-16 flex gap-10 mb-10">
+    <div className="w-full py-28 lg:px-16 my-16 flex lg:flex-row flex-col gap-20 mb-10 px-8">
       <div className="w-full">
         <div className="text-5xl font-light">You're in good company</div>
 
-        <div className="my-5 text-3xl pr-10">
+        <div className="my-5 text-3xl lg:pr-10">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
           cupiditate voluptatem minima perferendis modi velit consectetur
           voluptas
         </div>
 
-        <div className='grid grid-cols-3 gap-10'>
+        <div className='lg:grid grid-cols-3 gap-10  hidden'>
           <div className="bg-gray-200 w-40 px-10 h-16 border-2 border-gray-400 "></div>
           <div className="bg-gray-200 w-40 px-10 h-16 border-2 border-gray-400 "></div>
           <div className="bg-gray-200 w-40 px-10 h-16 border-2 border-gray-400 "></div>
