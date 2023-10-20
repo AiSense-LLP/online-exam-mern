@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 const Exam = () => {
   return (
     <>
+    <Navbar/>
       <div
         className="bg-[#4A3AFF] w-full flex  overflow-hidden lg:h-[530px]
   mt-96 lg:mt-0
