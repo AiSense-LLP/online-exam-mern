@@ -1,0 +1,26 @@
+
+.image-col {
+  display: flex;
+  align-items: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.form-col {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .image-col {
+    flex: 1;
+  }
+
+  .form-col {
+    flex: 2; 
+  }
+}
+
