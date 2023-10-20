@@ -9,7 +9,7 @@ import Box from '@mui/material/Box';
 import { Divider } from '@mui/material';
 import Link from '@mui/material/Link';
 
-const ResetPassword = () => {
+const Reset = () => {
   const [email, setEmail] = useState('');
 
   const handleResetPassword = () => {
@@ -104,5 +104,5 @@ const ResetPassword = () => {
   );
 };
 
-export default ResetPassword;
+export default Reset;
 

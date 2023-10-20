@@ -12,7 +12,7 @@ import FormControl from '@mui/material/FormControl';
 import { FcGoogle } from "react-icons/fc";
 import { CgFacebook } from "react-icons/cg";
 import { AiFillApple } from "react-icons/ai";
-const Login = () => {
+export const Login = () => {
 
   const [showPassword, setShowPassword] = React.useState(false);
 
@@ -75,4 +75,4 @@ const Login = () => {
   )
 }
 
-export default Login
+
