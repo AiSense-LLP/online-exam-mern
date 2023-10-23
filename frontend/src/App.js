@@ -6,14 +6,17 @@ import Contact from "./components/Contact"
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Reset from "./components/Reset";
+import { SignUp } from "./components/Signup/Signup";
 function App() {
   return (
     <>
     <Navbar />
       <Routes>
      
+        
         <Route path="/" exact element={<Hero />} />
         <Route path="/Login" exact element={<Login />} />
+        <Route path="/Signup" exact element={<SignUp />} />
         <Route path="/Contact" exact element={<Contact />} />
         <Route path="/Reset" exact element={<Reset />}/>
       </Routes>
